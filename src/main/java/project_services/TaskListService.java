@@ -9,8 +9,9 @@ import java.util.Set;
 
 import project_classes.TaskModel;
 import project_interfaces.Task;
+import project_interfaces.TaskList;
 
-public class TaskList {
+public class TaskListService implements TaskList {
 
 	@SuppressWarnings({ "rawtypes", "unchecked" })
 	List<Task> mainList = new ArrayList();
